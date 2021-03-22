@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pomodoroFragment"
+        android:icon="@drawable/ic_pomodoro"
+        android:title="@string/pomodoro" />
+
+    <item
+        android:id="@+id/taskFragment"
+        android:icon="@drawable/ic_task"
+        android:title="@string/task" />
+
+    <item
+        android:id="@+id/statisticsFragment"
+        android:icon="@drawable/ic_statistics"
+        android:title="@string/statistics" />
+
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pomodoroFragment">
+
+    <fragment
+        android:id="@+id/pomodoroFragment"
+        android:name="id.muharianda.podo.PomodoroFragment"
+        android:label="@string/pomodoro"
+        tools:layout="@layout/fragment_pomodoro">
+        <action
+            android:id="@+id/action_pomodoroFragment_to_taskFragment"
+            app:destination="@id/taskFragment" />
+        <action
+            android:id="@+id/action_pomodoroFragment_to_statisticsFragment2"
+            app:destination="@id/statisticsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="id.muharianda.podo.TaskFragment"
+        android:label="@string/task"
+        tools:layout="@layout/fragment_task">
+        <action
+            android:id="@+id/action_taskFragment_to_pomodoroFragment"
+            app:destination="@id/pomodoroFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="id.muharianda.podo.StatisticsFragment"
+        android:label="@string/statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="id.muharianda.podo.SettingFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_setting">
+        <action
+            android:id="@+id/action_settingFragment_to_pomodoroFragment"
+            app:destination="@id/pomodoroFragment" />
+    </fragment>
+
+</navigation>
