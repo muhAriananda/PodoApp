@@ -18,8 +18,7 @@ class TaskFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         _binding = FragmentTaskBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
+        return binding.root
     }
 
     override fun onDestroy() {
