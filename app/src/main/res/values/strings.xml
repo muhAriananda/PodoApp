@@ -13,4 +13,11 @@
     <string name="start_to_focus">Start to focus</string>
     <string name="stop">Stop</string>
     <string name="pause">Pause</string>
+    <string name="round_pomodoro">Round Pomodoro</string>
+    <string name="start_pomodoro">Start Pomodoro</string>
+    <string name="add_task">Add Task</string>
+    <string name="all">All</string>
+    <string name="done">Done</string>
+    <string name="empty_text">No assignment yet</string>
+    <string name="unfinished">Unfinished</string>
 </resources>
